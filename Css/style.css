@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272829;
+    height: 100px;
+    color: #FFF6E0;
+}
+.section-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #D8D9DA;
+    color: black
+}
+.login{
+    background-color: #61677A;
+    margin-top: -300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 220px;
+    width: 220px;
+}
+.login h2 {
+    text-align: center;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    margin-top: -12px;
+    border-radius: 20px;
+}
+form button{
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+}
+form button:hover{
+    scale: 1.1;
+    background-color:#272829 ;
+    color:#D8D9DA
+}
+form input{
+    padding: 5px;
+}
+form input::placeholder{
+    padding: 5px;
+}
+/* ---------------------------------------------------- Vendedor ------------------------------------------------------ */
+
+.botones-vendedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: -300px;
+}
+.lista{
+    height: 100px;
+}
+.botones{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+.botones:hover{
+    scale: 1.1;
+    background-color:#272829 ;
+    color:#D8D9DA
+}
+#btnLogin{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+#btnLogin:hover{
+    scale: 1.1;
+    background-color:#272829 ;
+    color:#D8D9DA
+}
+.btnLogin{
+    background-color: #D8D9DA;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-vendedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #D8D9DA;
+    color: black
+}
+.btnLogin button{
+    margin-top: -20px;
+    margin-bottom: 250px;
+}
+
+/* ---------------------------------------------------- Presupuesto ----------------------------------------------------- */
+.section-presupuesto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #D8D9DA;
+    color: black;
+}
+#formP{
+    margin-top: -100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+#btnTotal{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+#btnTotal:hover{
+    scale: 1.1;
+    background-color:#272829 ;
+    color:#D8D9DA
+}
+.formulario-finalizar{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -200px;
+}
+.lista-presupuesto{
+    height: 250px;
+    margin-left: 200px;
+    margin-right: -200px;
+    width: 300px;
+}
+.boton-presupuesto{
+    margin-top: 20px;
+}
+/* ---------------------------------------------------- Supervisor ---------------------------------------------------- */
+.section-supervisor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #D8D9DA;
+    color: black;
+}
+.formulario-supervisor{
+    margin-top: -100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+#btnLista{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#btnLista:hover{
+    scale: 1.1;
+    background-color:#272829 ;
+    color:#D8D9DA
+}
+.titulo-formulario{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+.titulo-formulario h2{
+    margin-top: -135px;
+}
+.lista-supervisor{
+    margin-right: -200px;
+}

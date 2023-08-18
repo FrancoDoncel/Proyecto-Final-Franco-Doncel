@@ -1,0 +1,10 @@
+[
+    {"nombre":"REMERA", "cantidad":"1000","precioUnitario":"9000" },
+    {"nombre":"BUZO", "cantidad":"1023","precioUnitario":"23000" },
+    {"nombre":"CAMPERA", "cantidad":"963","precioUnitario":"45000" },
+    {"nombre":"CAMISA", "cantidad":"562","precioUnitario":"16000" },
+    {"nombre":"PANTALON", "cantidad":"2560","precioUnitario":"20000" },
+    {"nombre":"ZAPATILLA", "cantidad":"300","precioUnitario":"70000" }
+]
+
+

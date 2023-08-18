@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Control stock para supervisores</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section-supervisor">
+            <div class="titulo-formulario">
+                <div>
+                    <h2 class="h2-supervisor">Agregar productos</h2>
+                </div>
+                <form class="formulario-supervisor"id="form" action="">
+                    <label for="">Producto</label>
+                    <br>
+                    <input id="nombre" type="text" placeholder="Remera">
+                    <br>
+                    <label for="">Cantidad</label>
+                    <br>
+                    <input id="cantidad" type="text" placeholder="1000">
+                    <br>
+                    <label for="">Precio</label>
+                    <br>
+                    <input id="precio" type="text" placeholder="12000">
+                    <button  id="btn" type="submit">Agregar</button>
+                </form>
+                <div>
+                    <button id="btnLista" type="submit">Listar stock</button>
+                </div>
+            </div>
+            <div class="lista-supervisor">
+                <ul id="item">
+                </ul>
+            </div>
+        </section>
+        <section class="btnLogin">
+            <div>
+                <button id="btnLogin" type="submit">Volver al login</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="../Js/productos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>

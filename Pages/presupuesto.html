@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="titulo">Presupuesto</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section-presupuesto">
+            <div class="formulario-finalizar">
+                <form id="formP" action="">
+                    <label for="">Producto</label>
+                    <br>
+                    <input id="nombreP" type="text" placeholder="Remera">
+                    <br>
+                    <label for="">Cantidad</label>
+                    <br>
+                    <input id="cantidadP" type="text" placeholder="1000">
+                    <br>
+                    <button  id="btnP" type="submit">Agregar</button>
+                </form>
+                <div class="boton-presupuesto">
+                    <button id="btnTotal" type="submit">Finalizar presupuesto</button>
+                </div>
+            </div>
+            <div class="lista-presupuesto">
+                <h2>Lista productos</h2>
+                <ul id="itemP">
+                </ul>
+            </div>
+        </section>
+        <section class="btnLogin">
+            <div>
+                <button id="btnLogin" type="submit">Volver al login</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="../Js/presupuesto.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>
